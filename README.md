@@ -1,6 +1,7 @@
 # azure-hybrid-observability
 
 
+```mermaid
 graph TD
     %% Implementation Phases
     subgraph Phase 1: Azure Infrastructure as Code
@@ -29,3 +30,4 @@ graph TD
         E3 --> |Push Telemetry| C2
         E3 --> |Write Data| A3
     end
+```
